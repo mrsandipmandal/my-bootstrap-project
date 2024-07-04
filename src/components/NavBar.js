@@ -15,10 +15,7 @@ const NavBar = () => {
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/action1">Action 1</NavDropdown.Item>
-              <NavDropdown.Item href="/action2">Action 2</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/action3">Action 3</NavDropdown.Item>
+              <NavDropdown.Item href="/form">Form</NavDropdown.Item>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

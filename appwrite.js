@@ -1,12 +1,8 @@
-// appwrite.js
-import { Client, Databases } from 'appwrite';
+import { Client, Databases, Permission, Role } from 'appwrite';
 
 const client = new Client();
-
 client
-    .setEndpoint('http://localhost:9005/v1') // Your API Endpoint
-    .setProject('nextproject'); // Your project ID
-
+    .setEndpoint('http://localhost:9005/v1') // Replace with your API endpoint
+    .setProject('6686388f520c877641d6'); // Replace with your project ID
 const databases = new Databases(client);
-
-export { client, databases };
+export { databases, Permission, Role };
